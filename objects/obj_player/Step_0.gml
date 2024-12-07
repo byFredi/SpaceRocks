@@ -41,14 +41,14 @@ var l196C865C_0;l196C865C_0 = keyboard_check(ord("D"));if (l196C865C_0){	///
 /// @DnDHash : 02A4F489
 move_wrap(1, 1, 0);
 
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Pressed
-/// @DnDVersion : 1.1
-/// @DnDHash : 290BEC03
-var l290BEC03_0;l290BEC03_0 = mouse_check_button_pressed(mb_left);if (l290BEC03_0){	/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+/// @DnDVersion : 1
+/// @DnDHash : 73FAAF37
+var l73FAAF37_0;l73FAAF37_0 = keyboard_check_pressed(vk_space);if (l73FAAF37_0){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 25B8C591
 	/// @DnDComment : No Buff / Standard mode
-	/// @DnDParent : 290BEC03
+	/// @DnDParent : 73FAAF37
 	/// @DnDArgument : "var" "buffno"
 	/// @DnDArgument : "value" "true"
 	if(buffno == true){	/// @DnDAction : YoYo Games.Instances.Create_Instance
@@ -65,7 +65,7 @@ var l290BEC03_0;l290BEC03_0 = mouse_check_button_pressed(mb_left);if (l290BEC0
 	/// @DnDVersion : 1
 	/// @DnDHash : 4FB2E5D0
 	/// @DnDComment : Triple Shot active
-	/// @DnDParent : 290BEC03
+	/// @DnDParent : 73FAAF37
 	/// @DnDArgument : "var" "bufftriple"
 	/// @DnDArgument : "value" "true"
 	if(bufftriple == true){	/// @DnDAction : YoYo Games.Instances.Create_Instance
