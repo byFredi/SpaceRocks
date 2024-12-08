@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite8",
-    "path":"sprites/Sprite8/Sprite8.yy",
+    "name":"Sprite_006_Upgrade_Gear",
+    "path":"sprites/Sprite_006_Upgrade_Gear/Sprite_006_Upgrade_Gear.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -180,33 +180,51 @@ if(buffselect == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 36BC1193
 	/// @DnDParent : 57300AEA
-	/// @DnDArgument : "xpos" "25"
-	/// @DnDArgument : "ypos" "500"
-	/// @DnDArgument : "objectid" "obj_upgrade_frame_shot"
-	/// @DnDSaveInfo : "objectid" "obj_upgrade_frame_shot"
-	instance_create_layer(25, 500, "Instances", obj_upgrade_frame_shot);
+	/// @DnDArgument : "xpos" "640"
+	/// @DnDArgument : "ypos" "860"
+	/// @DnDArgument : "objectid" "obj_upgrade_frame_1"
+	/// @DnDArgument : "layer" ""Overlay""
+	/// @DnDSaveInfo : "objectid" "obj_upgrade_frame_1"
+	instance_create_layer(640, 860, "Overlay", obj_upgrade_frame_1);
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 5E0FD859
+	/// @DnDParent : 57300AEA
+	/// @DnDArgument : "xpos" "1180"
+	/// @DnDArgument : "ypos" "860"
+	/// @DnDArgument : "objectid" "obj_upgrade_frame_2"
+	/// @DnDArgument : "layer" ""Overlay""
+	/// @DnDSaveInfo : "objectid" "obj_upgrade_frame_2"
+	instance_create_layer(1180, 860, "Overlay", obj_upgrade_frame_2);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 433C2202
+	/// @DnDApplyTo : {obj_upgrade_frame_1}
 	/// @DnDParent : 57300AEA
-	/// @DnDArgument : "xpos" "25"
-	/// @DnDArgument : "ypos" "500"
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_buff1"
 	/// @DnDArgument : "layer" ""OnTopOverlay""
 	/// @DnDSaveInfo : "objectid" "obj_buff1"
-	instance_create_layer(25, 500, "OnTopOverlay", obj_buff1);
+	with(obj_upgrade_frame_1) {
+		instance_create_layer(x + 0, y + 0, "OnTopOverlay", obj_buff1); 
+	}
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 67F7F5A5
+	/// @DnDApplyTo : {obj_upgrade_frame_2}
 	/// @DnDParent : 57300AEA
-	/// @DnDArgument : "xpos" "25"
-	/// @DnDArgument : "ypos" "550"
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "obj_buff2"
 	/// @DnDArgument : "layer" ""OnTopOverlay""
 	/// @DnDSaveInfo : "objectid" "obj_buff2"
-	instance_create_layer(25, 550, "OnTopOverlay", obj_buff2);
+	with(obj_upgrade_frame_2) {
+		instance_create_layer(x + 0, y + 0, "OnTopOverlay", obj_buff2); 
+	}
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
