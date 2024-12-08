@@ -96,7 +96,16 @@ var l73FAAF37_0;l73FAAF37_0 = keyboard_check_pressed(vk_space);if (l73FAAF37_0
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "obj_bullet3"
 		/// @DnDSaveInfo : "objectid" "obj_bullet3"
-		instance_create_layer(x + 0, y + 0, "Instances", obj_bullet3);}}
+		instance_create_layer(x + 0, y + 0, "Instances", obj_bullet3);}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 5D628D33
+	/// @DnDComment : Tripleshot level 2
+	/// @DnDParent : 73FAAF37
+	/// @DnDArgument : "var" "bufftriple2"
+	/// @DnDArgument : "value" "true"
+	if(bufftriple2 == true){}}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

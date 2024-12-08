@@ -7,3 +7,9 @@
 /// @DnDArgument : "var_1" "playerkilled"
 points = 0;
 playerkilled = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3DA51CFF
+/// @DnDArgument : "var" "LevelTripleShot"
+LevelTripleShot = 0;
