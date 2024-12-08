@@ -6,11 +6,13 @@
 if(obj_TripleCheck.OverlayCheck){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 763056B7
+	/// @DnDComment : Wenn das Level 0 ist,$(13_10)also kein Upgrade hat
 	/// @DnDParent : 3AF13503
 	/// @DnDArgument : "var" "obj_game.LevelTripleShot"
 	if(obj_game.LevelTripleShot == 0){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 6CFD2DF2
+		/// @DnDComment : Aktiviere BuffTriple1
 		/// @DnDInput : 2
 		/// @DnDParent : 763056B7
 		/// @DnDArgument : "expr" "true"
@@ -20,44 +22,42 @@ if(obj_TripleCheck.OverlayCheck){	/// @DnDAction : YoYo Games.Common.If_Variab
 		obj_player.bufftriple1 = true;
 		obj_player.buffselect = false;
 	
-		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 285FE0D1
+		/// @DnDHash : 4CBDF086
+		/// @DnDComment : Steigere das Level$(13_10)des Buffs auf 1
 		/// @DnDParent : 763056B7
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "obj_game.LevelTripleShot"
+		obj_game.LevelTripleShot += 1;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 5E5DCDBC
+		/// @DnDComment : Ziehe den Preis des$(13_10)Buffs vom Score ab
+		/// @DnDParent : 763056B7
+		/// @DnDArgument : "expr" "-PriceTripleShot1"
+		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "obj_game.points"
-		/// @DnDArgument : "op" "4"
-		/// @DnDArgument : "value" "PriceTripleShot1"
-		if(obj_game.points >= PriceTripleShot1){	/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 4CBDF086
-			/// @DnDParent : 285FE0D1
-			/// @DnDArgument : "expr" "1"
-			/// @DnDArgument : "expr_relative" "1"
-			/// @DnDArgument : "var" "obj_game.LevelTripleShot"
-			obj_game.LevelTripleShot += 1;
-		
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 5E5DCDBC
-			/// @DnDParent : 285FE0D1
-			/// @DnDArgument : "expr" "-PriceTripleShot1"
-			/// @DnDArgument : "expr_relative" "1"
-			/// @DnDArgument : "var" "obj_game.points"
-			obj_game.points += -PriceTripleShot1;}}}
+		obj_game.points += -PriceTripleShot1;}}
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 3D9CD0DD
+/// @DnDComment : Wenn genügend Punkte$(13_10)erreicht wurden, um den Buff$(13_10)zu kaufen
 /// @DnDArgument : "expr" "obj_TripleCheck_2.OverlayCheck_2"
 if(obj_TripleCheck_2.OverlayCheck_2){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 20B01A10
+	/// @DnDComment : Wenn bereits Level 1$(13_10)gekauft wurde. Sonst könnte man$(13_10)Level 2 vor Level 1 kaufen
 	/// @DnDParent : 3D9CD0DD
 	/// @DnDArgument : "var" "obj_game.LevelTripleShot"
 	/// @DnDArgument : "value" "1"
 	if(obj_game.LevelTripleShot == 1){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 2C64346B
+		/// @DnDComment : Das erste Level des Buffs$(13_10)auf falsch setzen$(13_10)Das zweite Level$(13_10)aktivieren
 		/// @DnDInput : 2
 		/// @DnDParent : 20B01A10
 		/// @DnDArgument : "expr" "false"
@@ -67,27 +67,22 @@ if(obj_TripleCheck_2.OverlayCheck_2){	/// @DnDAction : YoYo Games.Common.If_Va
 		obj_player.bufftriple1 = false;
 		obj_player.bufftriple2 = true;
 	
-		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 1AABD41B
+		/// @DnDHash : 7970476F
+		/// @DnDComment : Level um 1 erhöhen
 		/// @DnDParent : 20B01A10
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "obj_game.LevelTripleShot"
+		obj_game.LevelTripleShot += 1;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 6BD5A9D7
+		/// @DnDComment : Preis vom Score$(13_10)abziehen
+		/// @DnDParent : 20B01A10
+		/// @DnDArgument : "expr" "-PriceTripleShot2"
+		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "obj_game.points"
-		/// @DnDArgument : "op" "4"
-		/// @DnDArgument : "value" "PriceTripleShot2"
-		if(obj_game.points >= PriceTripleShot2){	/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 7970476F
-			/// @DnDParent : 1AABD41B
-			/// @DnDArgument : "expr" "1"
-			/// @DnDArgument : "expr_relative" "1"
-			/// @DnDArgument : "var" "obj_game.LevelTripleShot"
-			obj_game.LevelTripleShot += 1;
-		
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 6BD5A9D7
-			/// @DnDParent : 1AABD41B
-			/// @DnDArgument : "expr" "-PriceTripleShot2"
-			/// @DnDArgument : "expr_relative" "1"
-			/// @DnDArgument : "var" "obj_game.points"
-			obj_game.points += -PriceTripleShot2;}}}
+		obj_game.points += -PriceTripleShot2;}}
