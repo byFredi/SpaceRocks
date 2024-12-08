@@ -159,46 +159,7 @@ if(obj_game.points == 50){	/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDHash : 57300AEA
 /// @DnDArgument : "var" "buffselect"
 /// @DnDArgument : "value" "true"
-if(buffselect == true){	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 302E6B3B
-	/// @DnDParent : 57300AEA
-	/// @DnDArgument : "var" "obj_rock.speed"
-	obj_rock.speed = 0;
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 2EFDA7D1
-	/// @DnDComment : Add 50 to points $(13_10)to prevent repeated creation
-	/// @DnDParent : 57300AEA
-	/// @DnDArgument : "expr" "50"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "obj_game.points"
-	obj_game.points += 50;
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 36BC1193
-	/// @DnDParent : 57300AEA
-	/// @DnDArgument : "xpos" "640"
-	/// @DnDArgument : "ypos" "860"
-	/// @DnDArgument : "objectid" "obj_upgrade_frame_1"
-	/// @DnDArgument : "layer" ""Overlay""
-	/// @DnDSaveInfo : "objectid" "obj_upgrade_frame_1"
-	instance_create_layer(640, 860, "Overlay", obj_upgrade_frame_1);
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 5E0FD859
-	/// @DnDParent : 57300AEA
-	/// @DnDArgument : "xpos" "1092"
-	/// @DnDArgument : "ypos" "860"
-	/// @DnDArgument : "objectid" "obj_upgrade_frame_2"
-	/// @DnDArgument : "layer" ""Overlay""
-	/// @DnDSaveInfo : "objectid" "obj_upgrade_frame_2"
-	instance_create_layer(1092, 860, "Overlay", obj_upgrade_frame_2);
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
+if(buffselect == true){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 433C2202
 	/// @DnDApplyTo : {obj_upgrade_frame_1}
@@ -224,12 +185,4 @@ if(buffselect == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDSaveInfo : "objectid" "obj_buff2"
 	with(obj_upgrade_frame_2) {
 		instance_create_layer(x + 0, y + 0, "OnTopOverlay", obj_buff2); 
-	}
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 5C586146
-	/// @DnDParent : 57300AEA
-	/// @DnDArgument : "expr" "false"
-	/// @DnDArgument : "var" "buffselect"
-	buffselect = false;}
+	}}
