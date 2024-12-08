@@ -58,10 +58,11 @@ var l578A85F3_0 = false;l578A85F3_0 = instance_exists(obj_buff1);if(l578A85F3_
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 36396D06
+			/// @DnDComment : Namen beachten!!!
 			/// @DnDParent : 0BA46E4D
 			/// @DnDArgument : "expr" "true"
-			/// @DnDArgument : "var" "OverlayCheck"
-			OverlayCheck = true;}}
+			/// @DnDArgument : "var" "OverlayCheck_2"
+			OverlayCheck_2 = true;}}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
