@@ -18,9 +18,9 @@ if(obj_player.buffno == true){	/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0748618D
-/// @DnDArgument : "var" "obj_player.bufftriple"
+/// @DnDArgument : "var" "obj_player.bufftriple1"
 /// @DnDArgument : "value" "true"
-if(obj_player.bufftriple == true){	/// @DnDAction : YoYo Games.Common.Variable
+if(obj_player.bufftriple1 == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 68515593
 	/// @DnDInput : 2

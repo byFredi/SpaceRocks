@@ -16,5 +16,5 @@ buffno = true;
 /// @DnDVersion : 1
 /// @DnDHash : 70072A02
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "bufftriple"
-bufftriple = false;
+/// @DnDArgument : "var" "bufftriple1"
+bufftriple1 = false;

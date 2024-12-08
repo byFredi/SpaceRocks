@@ -66,9 +66,9 @@ var l73FAAF37_0;l73FAAF37_0 = keyboard_check_pressed(vk_space);if (l73FAAF37_0
 	/// @DnDHash : 4FB2E5D0
 	/// @DnDComment : Triple Shot active
 	/// @DnDParent : 73FAAF37
-	/// @DnDArgument : "var" "bufftriple"
+	/// @DnDArgument : "var" "bufftriple1"
 	/// @DnDArgument : "value" "true"
-	if(bufftriple == true){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	if(bufftriple1 == true){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 703A0B9D
 		/// @DnDParent : 4FB2E5D0
