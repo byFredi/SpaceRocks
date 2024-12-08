@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_buff1",
+  "%Name":"obj_upgrade_frame_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_buff1",
+  "name":"obj_upgrade_frame_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Upgrades",
-    "path":"folders/Objects/Upgrades.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite7",
-    "path":"sprites/Sprite7/Sprite7.yy",
+    "name":"Sprite_004_Upgrade_Frame_ShotUpgrade",
+    "path":"sprites/Sprite_004_Upgrade_Frame_ShotUpgrade/Sprite_004_Upgrade_Frame_ShotUpgrade.yy",
   },
   "spriteMaskId":null,
   "visible":true,

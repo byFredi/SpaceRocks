@@ -25,7 +25,7 @@ if(obj_game.playerkilled == true){	/// @DnDAction : YoYo Games.Instances.Destr
 	/// @DnDHash : 2F3D1853
 	/// @DnDApplyTo : {obj_upgrade_frame_shot}
 	/// @DnDParent : 772D4449
-	with(obj_upgrade_frame_shot) instance_destroy();
+	with(obj_upgrade_frame_1) instance_destroy();
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
@@ -48,7 +48,7 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDHash : 4F958CCE
 		/// @DnDApplyTo : {obj_upgrade_frame_shot}
 		/// @DnDParent : 38FBAA71
-		with(obj_upgrade_frame_shot) instance_destroy();
+		with(obj_upgrade_frame_1) instance_destroy();
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
