@@ -1,13 +1,14 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 3AF13503
+/// @DnDComment : Wenn der Spieler genug Punkte hat,$(13_10)wird OverlayCheck auf true gesetzt.$(13_10)Andererseits könnte der Spieler$(13_10)das Upgrade kaufen, bevor er$(13_10)genügend Punkte hat.
 /// @DnDArgument : "expr" "obj_TripleCheck.OverlayCheck"
 if(obj_TripleCheck.OverlayCheck){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 763056B7
 	/// @DnDParent : 3AF13503
-	/// @DnDArgument : "var" "LevelTripleShot"
-	if(LevelTripleShot == 0){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDArgument : "var" "obj_game.LevelTripleShot"
+	if(obj_game.LevelTripleShot == 0){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 6CFD2DF2
 		/// @DnDInput : 2
@@ -31,8 +32,9 @@ if(obj_TripleCheck.OverlayCheck){	/// @DnDAction : YoYo Games.Common.If_Variab
 			/// @DnDHash : 4CBDF086
 			/// @DnDParent : 285FE0D1
 			/// @DnDArgument : "expr" "1"
-			/// @DnDArgument : "var" "LevelTripleShot"
-			LevelTripleShot = 1;
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "var" "obj_game.LevelTripleShot"
+			obj_game.LevelTripleShot += 1;
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -42,3 +44,49 @@ if(obj_TripleCheck.OverlayCheck){	/// @DnDAction : YoYo Games.Common.If_Variab
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "obj_game.points"
 			obj_game.points += -PriceTripleShot1;}}}
+
+/// @DnDAction : YoYo Games.Common.If_Undefined
+/// @DnDVersion : 1
+/// @DnDHash : 6B4B8CED
+/// @DnDArgument : "var" "obj_TripleCheck_2.OverlayCheck"
+if(obj_TripleCheck_2.OverlayCheck == undefined){	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 20B01A10
+	/// @DnDParent : 6B4B8CED
+	/// @DnDArgument : "var" "obj_game.LevelTripleShot"
+	/// @DnDArgument : "value" "1"
+	if(obj_game.LevelTripleShot == 1){	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 2C64346B
+		/// @DnDInput : 2
+		/// @DnDParent : 20B01A10
+		/// @DnDArgument : "expr" "true"
+		/// @DnDArgument : "expr_1" "false"
+		/// @DnDArgument : "var" "obj_player.bufftriple2"
+		/// @DnDArgument : "var_1" "obj_player.buffselect"
+		obj_player.bufftriple2 = true;
+		obj_player.buffselect = false;
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 1AABD41B
+		/// @DnDParent : 20B01A10
+		/// @DnDArgument : "var" "obj_game.points"
+		/// @DnDArgument : "op" "4"
+		/// @DnDArgument : "value" "obj_TripleCheck.PriceTripleShot2"
+		if(obj_game.points >= obj_TripleCheck.PriceTripleShot2){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 7970476F
+			/// @DnDParent : 1AABD41B
+			/// @DnDArgument : "expr" "1"
+			/// @DnDArgument : "var" "obj_TripleCheck.LevelTripleShot"
+			obj_TripleCheck.LevelTripleShot = 1;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 6BD5A9D7
+			/// @DnDParent : 1AABD41B
+			/// @DnDArgument : "expr" "-obj_TripleCheck.PriceTripleShot2"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "var" "obj_game.points"
+			obj_game.points += -obj_TripleCheck.PriceTripleShot2;}}}
