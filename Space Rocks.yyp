@@ -59,7 +59,6 @@
     {"id":{"name":"spr_rock_small","path":"sprites/spr_rock_small/spr_rock_small.yy",},},
     {"id":{"name":"Sprite_002_Normal_Meteorite","path":"sprites/Sprite_002_Normal_Meteorite/Sprite_002_Normal_Meteorite.yy",},},
     {"id":{"name":"Sprite_003_Small_Meteorite","path":"sprites/Sprite_003_Small_Meteorite/Sprite_003_Small_Meteorite.yy",},},
-    {"id":{"name":"Sprite_004_Upgrade_Frame_ShotUpgrade","path":"sprites/Sprite_004_Upgrade_Frame_ShotUpgrade/Sprite_004_Upgrade_Frame_ShotUpgrade.yy",},},
     {"id":{"name":"Sprite_004_Upgrade_Frame","path":"sprites/Sprite_004_Upgrade_Frame/Sprite_004_Upgrade_Frame.yy",},},
     {"id":{"name":"Sprite_005_TripleShot_Desc","path":"sprites/Sprite_005_TripleShot_Desc/Sprite_005_TripleShot_Desc.yy",},},
     {"id":{"name":"Sprite_006_Upgrade_Gear","path":"sprites/Sprite_006_Upgrade_Gear/Sprite_006_Upgrade_Gear.yy",},},

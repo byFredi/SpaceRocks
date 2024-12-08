@@ -191,12 +191,12 @@ if(buffselect == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5E0FD859
 	/// @DnDParent : 57300AEA
-	/// @DnDArgument : "xpos" "1180"
+	/// @DnDArgument : "xpos" "1092"
 	/// @DnDArgument : "ypos" "860"
 	/// @DnDArgument : "objectid" "obj_upgrade_frame_2"
 	/// @DnDArgument : "layer" ""Overlay""
 	/// @DnDSaveInfo : "objectid" "obj_upgrade_frame_2"
-	instance_create_layer(1180, 860, "Overlay", obj_upgrade_frame_2);
+	instance_create_layer(1092, 860, "Overlay", obj_upgrade_frame_2);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1

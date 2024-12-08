@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_004_Upgrade_Frame_ShotUpgrade",
-    "path":"sprites/Sprite_004_Upgrade_Frame_ShotUpgrade/Sprite_004_Upgrade_Frame_ShotUpgrade.yy",
+    "name":"Sprite_004_Upgrade_Frame",
+    "path":"sprites/Sprite_004_Upgrade_Frame/Sprite_004_Upgrade_Frame.yy",
   },
   "spriteMaskId":null,
   "visible":true,
