@@ -16,6 +16,6 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6CCBA28B
 	/// @DnDParent : 67007F23
-	/// @DnDArgument : "var" "obj_player.bufftriple"
+	/// @DnDArgument : "var" "obj_player.bufftriple1"
 	/// @DnDArgument : "value" "true"
-	if(obj_player.bufftriple == true){}}
+	if(obj_player.bufftriple1 == true){}}

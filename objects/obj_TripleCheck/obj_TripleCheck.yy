@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_TripleCheckFalse",
-  "eventList":[],
+  "%Name":"obj_TripleCheck",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_TripleCheckFalse",
+  "name":"obj_TripleCheck",
   "overriddenProperties":[],
   "parent":{
     "name":"BuffTripleShot",
@@ -27,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"OverlayUpgCheckFalse",
-    "path":"sprites/OverlayUpgCheckFalse/OverlayUpgCheckFalse.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
