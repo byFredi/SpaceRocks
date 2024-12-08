@@ -8,8 +8,8 @@
   "name":"obj_buff2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Upgrades",
-    "path":"folders/Objects/Upgrades.yy",
+    "name":"BuffGear",
+    "path":"folders/Objects/Upgrades/BuffGear.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -19,9 +19,4 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDParent : 227162E0
 	/// @DnDArgument : "var" "obj_player.bufftriple"
 	/// @DnDArgument : "value" "true"
-	if(obj_player.bufftriple == true){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 4F958CCE
-		/// @DnDApplyTo : {obj_buff1}
-		/// @DnDParent : 38FBAA71
-		with(obj_buff1) instance_destroy();}}
+	if(obj_player.bufftriple == true){}}

@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_buff1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_TripleCheckAvai",
+  "eventList":[],
   "managed":true,
-  "name":"obj_buff1",
+  "name":"obj_TripleCheckAvai",
   "overriddenProperties":[],
   "parent":{
     "name":"BuffTripleShot",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite7",
-    "path":"sprites/Sprite7/Sprite7.yy",
+    "name":"OverlayUpgCheckReady",
+    "path":"sprites/OverlayUpgCheckReady/OverlayUpgCheckReady.yy",
   },
   "spriteMaskId":null,
   "visible":true,
