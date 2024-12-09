@@ -11,5 +11,5 @@ playerkilled = false;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3DA51CFF
-/// @DnDArgument : "var" "LevelTripleShot"
-LevelTripleShot = 0;
+/// @DnDArgument : "var" "LevelBuffMulti"
+LevelBuffMulti = 0;

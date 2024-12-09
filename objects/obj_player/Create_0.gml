@@ -18,7 +18,7 @@ buffno = true;
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "expr_1" "false"
-/// @DnDArgument : "var" "bufftriple1"
-/// @DnDArgument : "var_1" "bufftriple2"
-bufftriple1 = false;
-bufftriple2 = false;
+/// @DnDArgument : "var" "buffmulti1"
+/// @DnDArgument : "var_1" "buffmulti2"
+buffmulti1 = false;
+buffmulti2 = false;
