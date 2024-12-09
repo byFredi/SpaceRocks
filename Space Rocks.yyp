@@ -63,6 +63,7 @@
     {"id":{"name":"OverlayUpgCheck","path":"sprites/OverlayUpgCheck/OverlayUpgCheck.yy",},},
     {"id":{"name":"OverlayUpgCheckFalse","path":"sprites/OverlayUpgCheckFalse/OverlayUpgCheckFalse.yy",},},
     {"id":{"name":"OverlayUpgCheckReady","path":"sprites/OverlayUpgCheckReady/OverlayUpgCheckReady.yy",},},
+    {"id":{"name":"OverlayUpgReadyAnimation","path":"sprites/OverlayUpgReadyAnimation/OverlayUpgReadyAnimation.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
