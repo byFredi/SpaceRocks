@@ -12,6 +12,18 @@ var l277A8783_0;l277A8783_0 = keyboard_check(ord("W"));if (l277A8783_0){	///
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
+/// @DnDHash : 358F6A65
+/// @DnDArgument : "key" "ord("S")"
+var l358F6A65_0;l358F6A65_0 = keyboard_check(ord("S"));if (l358F6A65_0){	/// @DnDAction : YoYo Games.Movement.Add_Motion
+	/// @DnDVersion : 1
+	/// @DnDHash : 065CF3A9
+	/// @DnDParent : 358F6A65
+	/// @DnDArgument : "dir" "image_angle"
+	/// @DnDArgument : "speed" "-0.1"
+	motion_add(image_angle, -0.1);}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDVersion : 1
 /// @DnDHash : 7A074F36
 /// @DnDArgument : "key" "ord("A")"
 var l7A074F36_0;l7A074F36_0 = keyboard_check(ord("A"));if (l7A074F36_0){	/// @DnDAction : YoYo Games.Common.Variable
