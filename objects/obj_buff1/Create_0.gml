@@ -5,7 +5,7 @@
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "300"
 /// @DnDArgument : "expr_1" "500"
-/// @DnDArgument : "var" "PriceTripleShot1"
-/// @DnDArgument : "var_1" "PriceTripleShot2"
-PriceTripleShot1 = 300;
-PriceTripleShot2 = 500;
+/// @DnDArgument : "var" "PriceBuffMulti1"
+/// @DnDArgument : "var_1" "PriceBuffMulti2"
+PriceBuffMulti1 = 300;
+PriceBuffMulti2 = 500;

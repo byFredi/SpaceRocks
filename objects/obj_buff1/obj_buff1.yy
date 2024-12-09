@@ -10,8 +10,8 @@
   "name":"obj_buff1",
   "overriddenProperties":[],
   "parent":{
-    "name":"BuffTripleShot",
-    "path":"folders/Objects/Upgrades/BuffTripleShot.yy",
+    "name":"BuffMulti",
+    "path":"folders/Objects/Upgrades/BuffMulti.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3A15061E
+/// @DnDHash : 07A8146F
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "OverlayCheck"
-OverlayCheck = false;
+/// @DnDArgument : "var" "UpgradeHover"
+UpgradeHover = false;

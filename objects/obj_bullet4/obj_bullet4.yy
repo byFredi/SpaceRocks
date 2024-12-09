@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tripleshot_desc",
-  "eventList":[],
+  "%Name":"obj_bullet4",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_tripleshot_desc",
+  "name":"obj_bullet4",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"MultiShot2",
+    "path":"folders/Objects/Weapons/BuffMulti/MultiShot2.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_005_TripleShot_Desc",
-    "path":"sprites/Sprite_005_TripleShot_Desc/Sprite_005_TripleShot_Desc.yy",
+    "name":"spr_bullet",
+    "path":"sprites/spr_bullet/spr_bullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

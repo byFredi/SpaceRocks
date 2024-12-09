@@ -9,8 +9,8 @@
   "name":"obj_bullet2",
   "overriddenProperties":[],
   "parent":{
-    "name":"TripleShot1",
-    "path":"folders/Objects/Weapons/TripleShot/TripleShot1.yy",
+    "name":"MultiShot1",
+    "path":"folders/Objects/Weapons/BuffMulti/MultiShot1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

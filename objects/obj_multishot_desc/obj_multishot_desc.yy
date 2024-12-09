@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bullet",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_multishot_desc",
+  "eventList":[],
   "managed":true,
-  "name":"obj_bullet",
+  "name":"obj_multishot_desc",
   "overriddenProperties":[],
   "parent":{
-    "name":"NoBuff",
-    "path":"folders/Objects/Weapons/NoBuff.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bullet",
-    "path":"sprites/spr_bullet/spr_bullet.yy",
+    "name":"Sprite_005_MultiShot_Desc",
+    "path":"sprites/Sprite_005_MultiShot_Desc/Sprite_005_MultiShot_Desc.yy",
   },
   "spriteMaskId":null,
   "visible":true,
